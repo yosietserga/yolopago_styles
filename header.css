@@ -6,23 +6,22 @@
 
   /* colors */ 
   --white:#fff; 
-  --orange: #FF730B;
+  --orange: #FF6000;
   --brand:#7024C6 
 }
 .header {
   position: relative;
   z-index: 10;
   padding: 0px 15px;
-  background: #976ce2;
+  background: #7024C6;
+  z-index:999;
 }
 .header .nav-item {
   padding-left: 50px;
 }
-
 .header .nav-item .btn-warning{
   margin-top: 10px;
 }
-
 .header .navbar {
   padding: 10px 0px;
   line-height: 50px;
@@ -33,7 +32,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 91;
+  z-index: 999;
 }
 
 .header.sticky .navbar {
