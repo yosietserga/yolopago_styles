@@ -12,14 +12,12 @@ const Hero = () => {
           <Col lg={8}>
             <div className="pr-lg-5">
               <p className="font-monserrat text-primary font-weight-medium f-14 mb-4 text1">
-                Mandar Dinero,
-              </p>
-              <p className="mb-4 font-weight-normal line-height-1_4 text2">
+                Mandar Dinero,<br>
                 es tan fácil
                 <br />
                 como enviar un mensaje
               </p>
-              <span className="text-primary font-weight-medium text3">
+              <span className="text-primary font-weight-medium text3 bajada-hero">
                 Descarga y disfruta Yolo Pago
               </span>
               <br />
